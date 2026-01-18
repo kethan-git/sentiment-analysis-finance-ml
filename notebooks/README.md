@@ -2,7 +2,12 @@
 
 This folder contains the Jupyter notebooks used for data preparation, baseline sentiment evaluation, and machine learning–based sentiment classification on Indian financial news headlines.
 
----
+--- 
+### Note: 
+This project uses spaCy for text preprocessing. Install the English model using: 
+```python
+python -m spacy download en_core_web_sm
+```
 
 ### 01_data_preprocessing.ipynb
 - Loads the raw Indian financial news headlines dataset.
